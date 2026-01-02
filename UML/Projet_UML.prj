@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{847D9DF6-7FED-4DD3-8D96-2800DBBFF636}" Label="" LastModificationDate="1735834362" Name="Projet_UML" Objects="18" Symbols="11" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" signature="PRJ_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Project Id="o2">
+<a:ObjectID>847D9DF6-7FED-4DD3-8D96-2800DBBFF636</a:ObjectID>
+<a:Name>Projet_UML</a:Name>
+<a:Code>Projet_UML</a:Code>
+<a:CreationDate>1735216157</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735834362</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Project Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=
+RbldDeplinkFile=Yes
+RbldDeplinkGene=Yes
+RbldDeplinkRefr=Yes
+RbldDeplinkMapp=Yes
+RbldDeplinkOpnm=Yes</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Prj options]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+
+[ModelOptions\Prj options\NamingOptionsTemplates]
+
+[ModelOptions\Prj options\ClssNamingOptions]
+
+[ModelOptions\Prj options\ClssNamingOptions\PRJPCKG]
+
+[ModelOptions\Prj options\ClssNamingOptions\PRJPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\PRJPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\FILO]
+
+[ModelOptions\Prj options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Prj options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Prj options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Prj options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Prj options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOptionsText>
+<a:Project.Template>1</a:Project.Template>
+<c:ProjectDiagrams>
+<o:ProjectDiagram Id="o3">
+<a:ObjectID>FBBC57FA-4591-476E-AD4A-70E65CDDCF58</a:ObjectID>
+<a:Name>Diagramme_1</a:Name>
+<a:Code>Diagramme_1</a:Code>
+<a:CreationDate>1735216157</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780679</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\PRJ]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+PckgShowStrn=Yes
+ProjectFolder.Comment=No
+ProjectFolder.IconPicture=No
+ProjectFolder_SymbolLayout=
+Display Model Version=Yes
+ModelDocument.IconPicture=Yes
+ModelDocument.Stereotype=Yes
+ModelDocument.Comment=No
+ModelDocument.IconMode=Yes
+ModelDocument_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]&lt;/Form&gt;
+FileDocument.IconPicture=Yes
+FileDocument.Stereotype=Yes
+FileDocument.Comment=No
+FileDocument.IconMode=Yes
+FileDocument_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]&lt;/Form&gt;
+DependencyLink.Stereotype=Yes
+DependencyLink.Type=Yes
+DependencyLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Type&quot; Attribute=&quot;Type&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\PRJPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\PRJMDOC]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=2400
+Height=2400
+Brush color=174 208 250
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 147 162 183
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\PRJFDOC]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=2400
+Height=2400
+Brush color=174 208 250
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 147 162 183
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\DPLK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 5 54 84
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:ModelDocumentSymbol Id="o4">
+<a:CreationDate>1735753634</a:CreationDate>
+<a:ModificationDate>1735753635</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-635), (1198,1764))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o5"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o6">
+<a:CreationDate>1735764367</a:CreationDate>
+<a:ModificationDate>1735764367</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-9159), (1198,-6760))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o7"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o8">
+<a:CreationDate>1735765472</a:CreationDate>
+<a:ModificationDate>1735765472</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-18658), (1198,-16259))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o9"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o10">
+<a:CreationDate>1735765484</a:CreationDate>
+<a:ModificationDate>1735765484</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-27182), (1198,-24783))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o11"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o12">
+<a:CreationDate>1735780655</a:CreationDate>
+<a:ModificationDate>1735780655</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-35706), (1198,-33307))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o13"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o14">
+<a:CreationDate>1735780657</a:CreationDate>
+<a:ModificationDate>1735780657</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-44230), (1198,-41831))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o15"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o16">
+<a:CreationDate>1735780663</a:CreationDate>
+<a:ModificationDate>1735780663</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-53729), (1198,-51330))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o17"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o18">
+<a:CreationDate>1735780673</a:CreationDate>
+<a:ModificationDate>1735780673</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-63228), (1198,-60829))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o19"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o20">
+<a:CreationDate>1735780675</a:CreationDate>
+<a:ModificationDate>1735780675</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-72727), (1198,-70328))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o21"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+<o:ModelDocumentSymbol Id="o22">
+<a:CreationDate>1735780679</a:CreationDate>
+<a:ModificationDate>1735780679</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-1201,-82226), (1198,-79827))</a:Rect>
+<a:LineColor>12034707</a:LineColor>
+<a:FillColor>16437422</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>4</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:ModelDocument Ref="o23"/>
+</c:Object>
+</o:ModelDocumentSymbol>
+</c:Symbols>
+</o:ProjectDiagram>
+</c:ProjectDiagrams>
+<c:DefaultDiagram>
+<o:ProjectDiagram Ref="o3"/>
+</c:DefaultDiagram>
+<c:ModelsAndFiles>
+<o:ModelDocument Id="o24">
+<a:ObjectID>782EEC10-4E34-4624-9960-9DD7A518C541</a:ObjectID>
+<a:Name>ModeleOrienteObjet_2</a:Name>
+<a:Code>ModeleOrienteObjet_2</a:Code>
+<a:CreationDate>1735733378</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735756955</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///C|/Users/acer/Desktop/ModeleOrienteObjet_2.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>BFDFF6A3-BA6E-45F5-AD75-BCFC2200AF46</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o5">
+<a:ObjectID>DE6B08B2-943B-4FB6-802D-6B08A1856102</a:ObjectID>
+<a:Name>S&#39;authentifier</a:Name>
+<a:Code>S_authentifier</a:Code>
+<a:CreationDate>1735753634</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735756975</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/S&#39;authentifier.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>35C56E57-D383-41FC-BB1C-93A75220FEA3</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o7">
+<a:ObjectID>013861AB-2F3C-4485-B0BE-602BE3BCBC4B</a:ObjectID>
+<a:Name>Ajouter Nouveau Plat</a:Name>
+<a:Code>Ajouter_Nouveau_Plat</a:Code>
+<a:CreationDate>1735764367</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735765545</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Ajouter Nouveau Plat.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>B6E3E5B3-CDC8-4391-B4EA-BABA49E7F994</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o11">
+<a:ObjectID>A50D9CAF-E04F-4FB6-8DA4-51A97FBD1A9F</a:ObjectID>
+<a:Name>Modifier Plat</a:Name>
+<a:Code>Modifier_Plat</a:Code>
+<a:CreationDate>1735765484</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735765536</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Modifier Plat.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>2D7D6573-A725-4FE1-AFEF-E1E3B6160C41</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o9">
+<a:ObjectID>9F00E99A-427F-4F09-9E6B-5A35254B2797</a:ObjectID>
+<a:Name>Supprimer Plat</a:Name>
+<a:Code>Supprimer_Plat</a:Code>
+<a:CreationDate>1735765472</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735765540</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Supprimer Plat.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>5670D70D-4DB4-4120-9B9C-1751B6DFF988</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o13">
+<a:ObjectID>DFF2CDC5-6AD7-46FF-B0AB-7AFD6280B159</a:ObjectID>
+<a:Name>Verifier Disponibilite</a:Name>
+<a:Code>Verifier_Disponibilite</a:Code>
+<a:CreationDate>1735780655</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780655</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Verifier Disponibilite.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>9A2E3DCF-0768-4217-8331-62CD820C2F25</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o17">
+<a:ObjectID>805B615D-8EC3-4844-A317-1BAD9310DE3F</a:ObjectID>
+<a:Name>Ajouter Plat au Commande</a:Name>
+<a:Code>Ajouter_Plat_au_Commande</a:Code>
+<a:CreationDate>1735780663</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780663</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Ajouter Plat au Commande.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>4DE36FF8-88C9-4E47-9891-BA1519FCC036</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o15">
+<a:ObjectID>D539D416-2402-4877-85B7-96B68D2AB8E6</a:ObjectID>
+<a:Name>Consulter Statistiques</a:Name>
+<a:Code>Consulter_Statistiques</a:Code>
+<a:CreationDate>1735780657</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780657</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Consulter Statistiques.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>FEAD06E5-B59F-41E0-8029-3F054AF98CAB</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o19">
+<a:ObjectID>0E30E056-C851-4473-85E7-C77F60002AB8</a:ObjectID>
+<a:Name>Enregistrer Commande</a:Name>
+<a:Code>Enregistrer_Commande</a:Code>
+<a:CreationDate>1735780673</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780673</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Enregistrer Commande.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>77D9EAF9-9215-41B3-8FB5-A739593A6DD9</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o21">
+<a:ObjectID>3B347D0D-3880-4974-88CD-B33D66B8E17B</a:ObjectID>
+<a:Name>Supprimer Plat Commande</a:Name>
+<a:Code>Supprimer_Plat_Commande</a:Code>
+<a:CreationDate>1735780675</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780675</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Supprimer Plat Commande.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>D70372D0-BE59-4545-B916-C5804F3680C5</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o25">
+<a:ObjectID>13C8C333-E66D-4788-A2B4-89DDC31EDAD9</a:ObjectID>
+<a:Name>Plats Par Type</a:Name>
+<a:Code>Plats_Par_Type</a:Code>
+<a:CreationDate>1735765574</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780493</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Plats Par Type.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>06DDBFC9-F883-4332-BDE1-A1515A9F8DE8</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o23">
+<a:ObjectID>89DA7726-663C-4F71-8201-1C6F33F83B7A</a:ObjectID>
+<a:Name>Enregistrer Paiement</a:Name>
+<a:Code>Enregistrer_Paiement</a:Code>
+<a:CreationDate>1735780679</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780679</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Enregistrer Paiement.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>E5F0CCC5-DD9E-438E-A332-96AA7BE01E97</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o26">
+<a:ObjectID>D323533F-E0D4-42F0-9D06-D2FD0B21B20C</a:ObjectID>
+<a:Name>Ajouter Table</a:Name>
+<a:Code>Ajouter_Table</a:Code>
+<a:CreationDate>1735768450</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780487</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Ajouter Table.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>9A1DA66B-365F-4F99-9D30-750ECDB50DD2</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o27">
+<a:ObjectID>A3BED5DF-6D47-45EA-B5C7-AF5AA086EF18</a:ObjectID>
+<a:Name>Retirer Table</a:Name>
+<a:Code>Retirer_Table</a:Code>
+<a:CreationDate>1735768821</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735780482</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Retirer Table.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>C065D35B-77A1-4E4F-81BA-FEC09746BB90</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+<o:ModelDocument Id="o28">
+<a:ObjectID>2583D533-E95A-4290-918F-E98580E350CA</a:ObjectID>
+<a:Name>Diagramme de classes</a:Name>
+<a:Code>Diagramme_de_classes</a:Code>
+<a:CreationDate>1735820455</a:CreationDate>
+<a:Creator>acer</a:Creator>
+<a:ModificationDate>1735823085</a:ModificationDate>
+<a:Modifier>acer</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Diagramme de classes.moo</a:Location>
+<a:Extension>moo</a:Extension>
+<a:ModelDocument.ModelID>A8E4DF43-ACE0-42FF-BDA6-09EF354623DA</a:ModelDocument.ModelID>
+<a:ModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:ModelClassID>
+</o:ModelDocument>
+</c:ModelsAndFiles>
+</o:Project>
+</c:Children>
+</o:RootObject>
+
+</Model>

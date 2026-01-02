@@ -1,0 +1,13 @@
+Payment Receipt
+=================
+Table ID  : 1
+Commande ID : 63
+
+Details of Dishes Ordered:
+----------------------------------
+Error retrieving dish details.
+----------------------------------
+Total Order Amount : 5.0 $
+Amount Paid : 100.0 $
+Payment method : Carte
+Thank you for your visit !
